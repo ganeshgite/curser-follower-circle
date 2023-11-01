@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.main{
+    height: 720px;
+    width: 100%;
+    background-color: black;
+    
+}
+.main .curser{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    border: 1px solid rgb(249, 247, 247);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    
+}
+.main h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+    font-weight: bolder;
+    cursor: pointer;
+}
